@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WOODER</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto">
+		<link href="fonts/fonts.css" rel="stylesheet">
+
+<!--- tdnya mau coba2 pake script tapi gagal :(
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'  charset='utf-8'></script>
+
+<script>
+        $(document).ready(function(){       
+            var scroll_pos = 0;
+            $(".header").scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 100) {
+                    $(".header").css('background-color', '#ffffff');
+                } else {
+                    $(".header").css('background-color', '#111111');
+                }
+                console.log(scroll_pos);
+            });
+        });
+</script>
+--->
+
+<style type="text/css">	
+
+html, body {
+	background-color: #fff;
+	color: #ccc;
+	font-family: 'proxima_nova_altbold', sans-serif;
+	font-size: 14px;
+	letter-spacing: 3px;
+	overflow: hidden;
+	width: 100%
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.display-inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.display-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	position: absolute;
+    top: 0;
+    right: -17px;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	z-index: 5;
+	background-color: ;
+	color: #888;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+.header-menu {
+	width: 15%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header-menu img {
+	margin: 20px 0 20px 25px;
+	width: 40px;
+	height: 40px;
+}
+
+.header-menu-label {
+	margin: 25px 0 25px 10px;
+	font-weight: bold;
+}
+
+
+.header-nav {
+	width: 60%;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 25%;
+}
+
+.header-nav-label {
+	margin: 25px 0 25px 7.5%;
+	font-weight: bold;
+}
+
+.header-nav-logo {
+	margin: 25px 0 25px 0;
+	font-weight: bold;
+	font-size: 36px;
+	color: #ddd;
+	letter-spacing: 12px;
+}
+
+.header-lang {
+	width: 15%;
+	height: 100%;
+}
+
+.header-lang img {
+	margin: 30px 0 30px 0;
+	width: 25px;
+	height: 25px;
+}
+
+.header-lang-label {
+	margin: 35px 30px 35px 50px;
+}
+
+.header-lang-container {
+	width: 100%;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.header-menu-label:hover, 
+.header-nav-label:hover, 
+.header-lang-label:hover {
+	color: #fff;
+}
+
+.main {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 1000px;
+}
+
+.main-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.left-bg {
+	display: inline-block;
+	width: 55%;
+	height: 1000px;
+	background: url(img/bg1.jpg) no-repeat 50% 50% scroll;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.right-bg {
+	display: inline-block;
+	position: absolute;
+	top: 0%;
+	left: 55%;
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+}
+
+.white-box {
+	display: block;
+	position: absolute;
+	top: 950px;
+	left: 0;
+	width: 55%;
+	height: 50px;
+	background-color: #fff;
+
+}
+
+.main-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 37.5%;
+	margin-top: 325px;
+}
+
+.main-title {
+	font-size: 100px;
+	z-index: 1;
+	letter-spacing: 20px;
+	color: #bea67c;
+}
+
+.main-button {
+	width: 300px;
+	height: 50px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	margin: 35px 0 0 0;
+	text-align: center;
+}
+
+.main-button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-button p {
+	letter-spacing: 3px;
+}
+
+.main-button img {
+	width: 25px;
+}
+
+.mouse-scroll {
+	margin-top: 75px;
+}
+
+.mouse-scroll img {
+	width: 30px;
+}
+
+.text-scroll {
+	color: #333;
+	font-size: 13.5px;
+	margin: 25px 0 0 22px;
+}
+
+.arrow-scroll img {
+	width: 11px;
+	margin: 25px 0 0 9px;
+}
+
+
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+.furniture, .decor {
+	display: block;
+	background-color: #fff;
+	height: 640px;
+	text-align: center;
+	height: 100%;
+}
+
+.furniture-text {
+	text-align: left;
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+ 
+  }
+
+
+</style>
+	</head>
+
+<body>
+	<div class="container">
+		<div class="header display-flex">
+			<div class="header-menu display-inline">
+				<img class="display-inline" src="img/menu.png">
+				<div class="header-menu-label display-inline">MENU
+				</div>
+			</div>
+			<div class="header-nav display-inline">
+				<div class="header-nav-logo display-inline">WOODER
+				</div>
+				<div class="header-nav-label display-inline">HOME
+				</div>
+				<div class="header-nav-label display-inline">PRODUCTS
+				</div>
+				<div class="header-nav-label display-inline">ABOUT
+				</div>
+			</div>
+			<div class="header-lang display-inline">
+				<div class="header-lang-container display-flex">
+					<img class="display-inline" src="img/information.png">
+					<div class="header-lang-label display-inline">EN
+					</div>
+				</div>
+			</div>						
+		</div>
+		<div class="main"> 
+			<div class="main-bg">
+				<div class="left-bg">
+				</div>
+				<div class="white-box">
+				</div>
+				<div class="right-bg">
+					<img src="img/bg2.jpg">
+				</div>
+			</div>
+			<div class="main-box">
+				<div class="main-title">
+					WOODER
+				</div>
+				<div class="main-button">
+					<p class="display-inline">LEARN MORE</p>
+					<img class="display-inline" src="img/arrow-right.png">
+				</div>
+				<div class="mouse-scroll">
+					<img src="img/mouse.png">
+				</div>
+				<div class="arrow-scroll">
+					<img src="img/arrow-down.png">
+				</div>
+				<div class="text-scroll vertical-text">
+					SCROLL
+				</div>
+			</div>
+		</div>
+		<div class="furniture">
+			<div class="furniture-box" style="width: 100%; height: 100%; margin: 100px 0 100px 0;">
+				<div class="furniture-strip display-inline" style="width: 150px; height: 100%;">
+				
+				</div>
+				<div class="furniture-text display-inline" style="width: 350px; height: 100%;margin: 50px 25px 50px 25px;">
+					<h2>FURNITURE</h2>
+					<p>Wooder utilizes materials otherwise left behind,<br>
+					rendered useless in their original intent. By creat-<br>
+					ing new pieces made of reclaimed barnwood.</p>
+				</div>
+				<div class="furniture-image display-inline" style="width: 625px; height: 100%; ">
+					<img src="img/upcycled-furniture-011.jpg" style="object-fit: cover; object-position: 0 100%; box-shadow: 0 0 25px rgba(0,0,0,0.25);">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="decor">
+		</div>
+	</div>
+
+
+
+</body>
+</html>
