@@ -5,50 +5,30 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto">
 		<link href="fonts/fonts.css" rel="stylesheet">
 		<link href="index.css" rel="stylesheet">
-
-<!--- tdnya mau coba2 pake script tapi gagal :(
-
-<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'  charset='utf-8'></script>
-
-<script>
-        $(document).ready(function(){       
-            var scroll_pos = 0;
-            $(".header").scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 100) {
-                    $(".header").css('background-color', '#ffffff');
-                } else {
-                    $(".header").css('background-color', '#111111');
-                }
-                console.log(scroll_pos);
-            });
-        });
-</script>
---->
 	</head>
 
 <body>
 	<div class="container">
-		<div class="header display-flex bold">
-			<div class="header-menu display-inline">
-				<img class="display-inline" src="img/menu.png">
-				<div class="header-menu-label display-inline">MENU
+		<div class="header flex bold">
+			<div class="header-menu inline">
+				<img class="inline" src="img/menu.png">
+				<div class="header-menu-label inline">MENU
 				</div>
 			</div>
-			<div class="header-nav display-inline">
-				<div class="header-nav-logo display-inline">WOODER
+			<div class="header-nav inline">
+				<div class="header-nav-logo inline">WOODER
 				</div>
-				<div class="header-nav-label display-inline">HOME
+				<div class="header-nav-label inline">HOME
 				</div>
-				<div class="header-nav-label display-inline">PRODUCTS
+				<div class="header-nav-label inline">PRODUCTS
 				</div>
-				<div class="header-nav-label display-inline">ABOUT
+				<div class="header-nav-label inline">ABOUT
 				</div>
 			</div>
-			<div class="header-lang display-inline">
-				<div class="header-lang-container display-flex">
-					<img class="display-inline" src="img/information.png">
-					<div class="header-lang-label display-inline">EN
+			<div class="header-lang inline">
+				<div class="header-lang-container flex">
+					<img class="inline" src="img/information.png">
+					<div class="header-lang-label inline">EN
 					</div>
 				</div>
 			</div>						
@@ -68,8 +48,8 @@
 					WOODER
 				</div>
 				<div class="main-button">
-					<p class="display-inline">LEARN MORE</p>
-					<img class="display-inline" src="img/arrow-right.png">
+					<p class="inline">LEARN MORE</p>
+					<img class="inline" src="img/arrow-right.png">
 				</div>
 				<div class="mouse-scroll">
 					<img src="img/mouse.png">
@@ -82,31 +62,154 @@
 				</div>
 			</div>
 		</div>
-		<div class="fd">
-			<div class="fd-box">
-				<div class="furniture-strip display-inline">
-					<div class="furniture-strip-1">
-					</div>
-					<div class="furniture-strip-2">
-					</div>
-					<p class="bold">01<span style="color: #bea67c;">.</span></p>
+		
+		<div class="furniture-box center">
+			<div class="furniture-stripe inline">
+				<div class="furniture-stripe-1">
 				</div>
-				<div class="furniture-text display-inline">
-					<h2 class="bold">FURNITURE</h2>
-					<p style="">Wooder utilizes materials otherwise left behind,<br>
-					rendered useless in their original intent. By creat-<br>
-					ing new pieces made of reclaimed barnwood.</p>
-					<a href="#" class="bold" style="">LEARN MORE</a>
+				<div class="furniture-stripe-2">
 				</div>
-				<div class="furniture-image display-inline" style="width: 625px; height: 400px; background-color: #777;">
-					<img src="img/upcycled-furniture-011.jpg" style="height: 100%; width: 100%; object-fit: cover; object-position: 100% 50%; opacity: 0.6; box-shadow: 0 0 25px rgba(0,0,0,0.25);">
+				<p class="bold">01<span style="color: #bea67c;">.</span></p>
+			</div>
+			<div class="furniture-text inline">
+				<h2 class="bold">FURNITURE</h2>
+				<p style="">Wooder utilizes materials otherwise left behind,<br>
+				rendered useless in their original intent. By creat-<br>
+				ing new pieces made of reclaimed barnwood.</p>
+				<a href="#" class="bold" style="">LEARN MORE</a>
+			</div>
+			<div class="furniture-image inline" style="width: 625px; height: 400px; background-color: #777;">
+				<img src="img/upcycled-furniture-011.jpg" style="height: 100%; width: 100%; object-fit: cover; object-position: 100% 50%; box-shadow: 0 0 20px rgba(0,0,0,0.5); filter: contrast(100%) saturate(50%);">
+			</div>
+		</div>
+		<div class="furniture-separator center" style="width: 1140px; background-color: #fff; text-align: center; margin: 100px auto;">
+			<div class="furniture-line" style="width: 5px; height: 50px; margin: 100px 0 100px 0; background-color: #bea67c;">
+			</div>
+		</div>
+		<div class="decor-box center">
+			<div class="furniture-image inline" style="width: 625px; height: 400px; background-color: #777;">
+				<img src="img/ea88ff354d9091613e83e79af7cc2a75.jpg" style="height: 100%; width: 100%; object-fit: cover; object-position: 100% 50%; box-shadow: 0 0 20px rgba(0,0,0,0.5); filter: contrast(100%) saturate(50%);">
+			</div>
+			<div class="decor-text inline">
+				<h2 class="bold">DECOR</h2>
+				<p style="">We make all types of wooden decor as<br>
+				per design given by architect, interior<br>
+				designer, or contractor which is suitable.</p>
+				<a href="#" class="bold" style="">LEARN MORE</a>
+			</div>
+			<div class="decor-stripe inline">
+				<div class="decor-stripe-1">
+				</div>
+				<div class="decor-stripe-2">
+				</div>
+				<p class="bold">02<span style="color: #bea67c;">.</span></p>
+			</div>
+		</div>
+		<div class="decor-separator center" style="position: relative; width: 1140px; background-color: #fff; text-align: center; margin: 50px auto 10px auto;">
+			<div class="decor-line" style="width: 5px; height: 50px; right:0; margin: 50px 10px 100px auto; background-color: #bea67c;">
+			</div>
+		</div>
+		<div class="quality-box center">
+			<div class="quality-text">
+				<h1 class="bold">WOODER - IS QUALITY</h1>
+				<div class="quality-text-stripe"></div>
+				<p> We create unique design objects made of rare wood, specially under the order.<br>
+				Look at the short video about our work.</p>
+			</div>
+			<div>
+				<div class="quality-vid inline">
+					<div class="quality-vid-frame">
+						<div class="quality-vid-content">
+							<img src="img/GIBRALTAR-BENCH-IN-TABLES-COFFEE-AND-SEATING.jpg">
+							<div class="quality-vid-button">
+							</div>
+						</div>
+					</div>
+					<div class="quality-vid-stripe">
+					</div>
+					<h3 class="bold">Innovative Design</h3>
+				</div>
+				<div class="quality-vid inline">
+					<div class="quality-vid-frame">
+						<div class="quality-vid-content">
+							<img src="img/wood-furniture-design.jpg">
+						</div>
+					</div>
+					<div class="quality-vid-stripe">
+					</div>
+					<h3 class="bold">High-level Skills</h3>
+				</div>
+				<div class="quality-vid inline">
+					<div class="quality-vid-frame">
+						<div class="quality-vid-content">
+							<img src="img/upcycled-02.jpg">
+						</div>
+					</div>
+					<div class="quality-vid-stripe">
+					</div>
+					<h3 class="bold">Quality Products</h3>
 				</div>
 			</div>
-			<div class="fd-separator" style="width: 1140px; background-color: #fff; text-align: center; margin: auto;">
-				<div class="fd-line" style="width: 5px; height: 50px; margin: 100px 0 100px 0; background-color: #bea67c;">
+		</div>
+		<div class="full-vid-box center flex" style="width: 100%; height: 100%; background: url(img/bg3.png) no-repeat fixed center; ">
+			<div class="full-vid-frame" style="width: 80%; height: 80%; border: 1px solid #bea67c; top: 10%; margin: auto;">
+				<div
+				<div class="full-vid-hstripe inline" style="width: 20%; height: 60%; margin: auto;">
+					<div class="" style="width: 50%; height: 1px; left: 50%; background-color: #fff; margin: 65px 0 0 auto;">
+					</div>
+					<div class="" style="width: 15%; height: 5px; left: 80%; background-color: #bea67c; margin: 135px 0 0 auto;">
+					</div>
+				</div>
+				<div class="full-vid-text inline" style="width: 35%; height: 60%; margin: auto 25px; text-align: left;">
+					<h2 class="bold" style="font-size: 48px; color: #bea67c;">WE DO THE DESIGN OF ANY COMPLEXITY</h2>
+					<p style="color: #fff; width: 80%;">This is a team of professionals that make the furniture and wood decor of high standard. Creating modern designs. Adhering to the global quality standards. And we are doing work with love.</p>
+					<div class="full-vid-button center flex" style="position: relative; border: 2px solid #fff; width: 60%; height: 12.5%;">
+						<div style="margin: auto;">
+							<img src="img/player6.png" class="inline" style="width: 25px; height: 25px; object-fit:cover; object-position: 50% 50%;">
+							<p class=" inline bold" style="margin: 0 0 0 10px; color: white; letter-spacing: 3px;">WATCH VIDEO</p>
+						</div>
+					</div>
+				</div>
+				<div class="full-vid-vstripe inline" style="width: 35%; height: 100%;">
+					<div class="full-vid-vstripe">
+					</div>
 				</div>
 			</div>
-			<div class="fd">
+		</div>
+		<div class="about-box center">
+			<div class="furniture-image inline" style="width: 625px; height: 400px; background-color: #777;">
+				<img src="img/46ac2a29632469.55fc0c991daeb.jpg" style="height: 100%; width: 100%; object-fit: cover; object-position: 100% 50%; box-shadow: 0 0 25px rgba(0,0,0,0.25);">
+			</div>
+			<div class="furniture-stripe inline">
+				<div class="furniture-stripe-1">
+				</div>
+				<div class="furniture-stripe-2">
+				</div>
+			</div>
+			<div class="furniture-text inline">
+				<h2 class="bold">ABOUT US</h2>
+				<p style="">We are a team of professionals on the wood pro-<br>
+				cessing and the creation of wooden furniture<br>
+				od the highest class.</p>
+				<a href="#" class="bold" style="">LEARN MORE</a>
+			</div>
+		</div>
+		<div class="footer center" style="width: 100%; height: 70px; background: url(img/bg1.jpg) no-repeat fixed center;  background-size: cover; margin: 0;">
+			<div class="footer-30 inline" style="width: 30%; height: 100%; margin: 0;">
+				<div class="flex" style="width: 100%; height: 100%; margin: 0;">
+					<p style="margin: auto;">©2016 WOODER</p>
+				</div>
+			</div>
+			<div class="footer-30 inline" style="width: 30%; height: 100%; margin: 0;">
+				<div class="flex" style="width: 100%; height: 100%; margin: 0;">
+					<div class="footer-logo bold" style="font-size: 28px; font-weight: bold; color: #ddd; letter-spacing: 12px; margin: auto;">WOODER
+					</div>
+				</div>
+			</div>
+			<div class="footer-30 inline" style="width: 30%; height: 100%; margin: 0;">
+				<div class="flex" style="width: 100%; height: 100%; margin: 0;">
+					<p style="margin: auto;">Designed by Viacheslav Olianishyn</p>
+				</div>
 			</div>
 		</div>
 	</div>

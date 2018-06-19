@@ -14,19 +14,30 @@ a {
 	color: inherit;
 }
 
+p {
+	font-size: 16px; color: #555; letter-spacing: 0; line-height: 2em; margin: 25px 0 25px 0;
+}
+
+.center {
+	text-align: center;
+}
+
 .bold {
 	font-family: 'proxima_nova_altbold', sans-serif;
 }
 
-.display-inline {
+.inline {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-
-.display-flex {
+.flex {
 	display: flex;
 	justify-content: space-between;
+}
+
+.hidden {
+	overflow: hidden;
 }
 
 .container {
@@ -193,7 +204,8 @@ a {
 
 .main-button p {
 	letter-spacing: 3px;
-	margin: 18px 0 18px 0;
+	color: white;
+	margin: 12.5px 0 12.5px 0;
 }
 
 .main-button img {
@@ -225,27 +237,27 @@ a {
 	transform-origin: left top 0;
 }
 
-.fd {
+.content {
 	background-color: #fff; text-align: center;
 }
 
-.fd-box {
+.furniture-box {
 	width: 100%; height: 400px; padding: 100px 0 0 0;
 }
 
-.furniture-strip {
+.furniture-stripe {
 	position: relative; width: 150px; height: 400px;
 }
 
-.furniture-strip p {
+.furniture-stripe p {
 	font-size: 40px; color: black; position: absolute; left: 0; bottom: 0; margin: 0 0 0 0;
 }
 
-.furniture-strip-1 {
+.furniture-stripe-1 {
 	width: 100%; height: 1px; background-color: #000; margin: 125px 0 0 0;
 }
 
-.furniture-strip-2 {
+.furniture-stripe-2 {
 	width: 30%; height: 5px; left: 70%; background-color: #bea67c; margin: 65px 0 0 auto;
 }
 
@@ -264,4 +276,89 @@ a {
 
 .furniture-text a {
 	color: #000; 
+}
+
+.decor-box {
+	width: 100%; height: 400px; padding: 0 0 0 0;
+}
+
+.decor-text {
+	width: 350px; height: 100%; margin: 0 25px 0 25px; text-align: right;
+}
+
+.decor-text h2 {
+	font-size: 45px; color: black; margin: 100px 0 0 0;
+}
+
+.decor-text p {
+	font-size: 16px; color: #555; letter-spacing: 0; line-height: 2em; margin: 25px 0 25px 0;
+}
+
+.decor-text a {
+	color: #000; 
+}
+
+.decor-stripe {
+	position: relative; width: 150px; height: 400px;
+}
+
+.decor-stripe p {
+	font-size: 40px; color: black; position: absolute; right: 0; bottom: 0; margin: 0 0 0 0;
+}
+
+.decor-stripe-1 {
+	width: 100%; height: 1px; background-color: #000; margin: 125px 0 0 0;
+}
+
+.decor-stripe-2 {
+	width: 30%; height: 5px; left: 0; background-color: #bea67c; margin: 65px auto 0 0;
+}
+
+
+
+
+.quality-box {
+	width: 100%; text-align: center; margin: 0 0 150px 0;
+}
+
+.quality-text {
+	margin: 0 0 75px 0;
+}
+
+.quality-text h1 {
+	font-size: 48px; color: #000; margin: 0;
+}
+
+.quality-text-stripe {
+	width: 50px; height: 5px; background-color: #bea67c; margin: 30px auto 15px auto;
+}
+
+.quality-vid {
+	margin: 0 50px 0 50px;
+}
+
+.quality-vid-frame {
+	width: 260px; height: 260px; border: 1px solid rgba(0,0,0,0.15); border-radius: 50%;
+}
+
+.quality-vid h3 {
+	font-size: 16px; color: #000; letter-spacing: 0.5px; margin: 0;
+}
+
+.quality-vid-content {
+	width: 240px; height: 240px; border: 0px solid transparent; border-radius: 50%; margin: 10px auto;
+}
+
+.quality-vid-content img {
+	height: 100%; width: 100%; border: 0px solid transparent; border-radius: 50%; object-fit: cover; object-position: 50% 50%; opacity: 0.9; filter: grayscale(100%);
+}
+
+.quality-vid-stripe {
+	width: 30px; height: 1px; background-color: #bea67c; margin: 25px auto 15px auto;
+}
+
+
+
+.about-box {
+	width: 100%; height: 400px; margin: 125px 0 125px 0;
 }
