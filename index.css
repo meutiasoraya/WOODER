@@ -15,7 +15,11 @@ a {
 }
 
 p {
-	font-size: 16px; color: #555; letter-spacing: 0; line-height: 2em; margin: 25px 0 25px 0;
+	font-size: 16px; 
+	color: #555; 
+	letter-spacing: 0; 
+	line-height: 2em; 
+	margin: 25px 0 25px 0;
 }
 
 .center {
@@ -36,8 +40,24 @@ p {
 	justify-content: space-between;
 }
 
+.flex-center {
+	display: flex;
+	justify-content: space-between;
+	width: 100%; 
+	height: 100%; 
+	margin: 0;
+}
+
+.margin-auto {
+	margin: auto;
+}
+
 .hidden {
 	overflow: hidden;
+}
+
+.beige-text {
+	color: #bea67c;
 }
 
 .container {
@@ -238,39 +258,64 @@ p {
 }
 
 .content {
-	background-color: #fff; text-align: center;
+	background-color: #fff; 
+	text-align: center;
 }
 
 .furniture-box {
-	width: 100%; height: 400px; padding: 100px 0 0 0;
+	width: 100%; 
+	height: 400px; 
+	padding: 100px 0 0 0;
 }
 
 .furniture-stripe {
-	position: relative; width: 150px; height: 400px;
+	position: relative; 
+	width: 150px; 
+	height: 400px;
 }
 
 .furniture-stripe p {
-	font-size: 40px; color: black; position: absolute; left: 0; bottom: 0; margin: 0 0 0 0;
+	font-size: 40px; 
+	color: black; 
+	position: absolute; 
+	left: 0; bottom: 0; 
+	margin: 0 0 0 0;
 }
 
 .furniture-stripe-1 {
-	width: 100%; height: 1px; background-color: #000; margin: 125px 0 0 0;
+	width: 100%; 
+	height: 1px; 
+	background-color: #000;
+	 margin: 125px 0 0 0;
 }
 
 .furniture-stripe-2 {
-	width: 30%; height: 5px; left: 70%; background-color: #bea67c; margin: 65px 0 0 auto;
+	width: 30%;
+	height: 5px;
+	left: 70%; 
+	background-color: #bea67c; 
+	margin: 65px 0 0 auto;
 }
 
 .furniture-text {
-	width: 350px; height: 100%; margin: 0 25px 0 25px; text-align: left;
+	width: 350px; 
+	height: 100%; 
+	margin: 0 25px 0 25px; 
+	text-align: left;
 }
 
 .furniture-text h2 {
-	font-size: 45px; color: black; margin: 100px 0 0 0;
+	font-size: 45px; 
+	color: black; 
+	margin: 100px 0 0 0;
 }
 
 .furniture-text p {
-	font-size: 16px; color: #555; letter-spacing: 0; line-height: 2em; margin: 25px 0 25px 0;
+	font-size: 16px; 
+	color: #555; 
+	letter-spacing: 0; 
+	line-height: 2em; 
+	margin: 25px 0 25px 0;
 }
 
 
@@ -278,20 +323,61 @@ p {
 	color: #000; 
 }
 
+.furniture-image {
+	width: 625px; 
+	height: 400px; 
+	background-color: #777;
+}
+
+.furniture-image img {
+	height: 100%; 
+	width: 100%; 
+	object-fit: cover; 
+	object-position: 100% 50%; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+	filter: contrast(100%) saturate(50%);
+}
+
+.furniture-separator {
+	width: 1140px; 
+	background-color: #fff; 
+	text-align: center; 
+	margin: 100px auto;
+}
+
+
+.furniture-line {
+	width: 5px; 
+	height: 50px; 
+	margin: 100px 0 100px 0; 
+	background-color: #bea67c;
+}
+
 .decor-box {
-	width: 100%; height: 400px; padding: 0 0 0 0;
+	width: 100%; 
+	height: 400px; 
+	padding: 0 0 0 0;
 }
 
 .decor-text {
-	width: 350px; height: 100%; margin: 0 25px 0 25px; text-align: right;
+	width: 350px; 
+	height: 100%; 
+	margin: 0 25px 0 25px; 
+	text-align: right;
 }
 
 .decor-text h2 {
-	font-size: 45px; color: black; margin: 100px 0 0 0;
+	font-size: 45px; 
+	color: black; 
+	margin: 100px 0 0 0;
 }
 
 .decor-text p {
-	font-size: 16px; color: #555; letter-spacing: 0; line-height: 2em; margin: 25px 0 25px 0;
+	font-size: 16px; 
+	color: #555; 
+	letter-spacing: 0; 
+	line-height: 2em; 
+	margin: 25px 0 25px 0;
 }
 
 .decor-text a {
@@ -299,26 +385,54 @@ p {
 }
 
 .decor-stripe {
-	position: relative; width: 150px; height: 400px;
+	position: relative; 
+	width: 150px; height: 400px;
 }
 
 .decor-stripe p {
-	font-size: 40px; color: black; position: absolute; right: 0; bottom: 0; margin: 0 0 0 0;
+	font-size: 40px; 
+	color: black; 
+	position: absolute; 
+	right: 0; 
+	bottom: 0; 
+	margin: 0 0 0 0;
 }
 
 .decor-stripe-1 {
-	width: 100%; height: 1px; background-color: #000; margin: 125px 0 0 0;
+	width: 100%; 
+	height: 1px; 
+	background-color: #000; 
+	margin: 125px 0 0 0;
 }
 
 .decor-stripe-2 {
-	width: 30%; height: 5px; left: 0; background-color: #bea67c; margin: 65px auto 0 0;
+	width: 30%; 
+	height: 5px; 
+	left: 0; 
+	background-color: #bea67c; 
+	margin: 65px auto 0 0;
 }
 
+.decor-separator {
+	position: relative; 
+	width: 1140px; 
+	background-color: #fff; 
+	text-align: center; 
+	margin: 50px auto 10px auto;
+}
 
-
+.decor-line {
+	width: 5px; 
+	height: 50px; 
+	right:0; 
+	margin: 50px 10px 100px auto; 
+	background-color: #bea67c;
+}
 
 .quality-box {
-	width: 100%; text-align: center; margin: 0 0 150px 0;
+	width: 100%; 
+	text-align: center; 
+	margin: 0 0 150px 0;
 }
 
 .quality-text {
@@ -326,11 +440,16 @@ p {
 }
 
 .quality-text h1 {
-	font-size: 48px; color: #000; margin: 0;
+	font-size: 48px; 
+	color: #000; 
+	margin: 0;
 }
 
 .quality-text-stripe {
-	width: 50px; height: 5px; background-color: #bea67c; margin: 30px auto 15px auto;
+	width: 50px; 
+	height: 5px; 
+	background-color: #bea67c; 
+	margin: 30px auto 15px auto;
 }
 
 .quality-vid {
@@ -338,27 +457,147 @@ p {
 }
 
 .quality-vid-frame {
-	width: 260px; height: 260px; border: 1px solid rgba(0,0,0,0.15); border-radius: 50%;
+	width: 260px; 
+	height: 260px; 
+	border: 1px solid rgba(0,0,0,0.15); 
+	border-radius: 50%;
 }
 
 .quality-vid h3 {
-	font-size: 16px; color: #000; letter-spacing: 0.5px; margin: 0;
+	font-size: 16px; 
+	color: #000; 
+	letter-spacing: 0.5px; 
+	margin: 0;
 }
 
 .quality-vid-content {
-	width: 240px; height: 240px; border: 0px solid transparent; border-radius: 50%; margin: 10px auto;
+	width: 240px; 
+	height: 240px; 
+	border: 0px solid transparent; 
+	border-radius: 50%; 
+	margin: 10px auto;
 }
 
 .quality-vid-content img {
-	height: 100%; width: 100%; border: 0px solid transparent; border-radius: 50%; object-fit: cover; object-position: 50% 50%; opacity: 0.9; filter: grayscale(100%);
+	height: 100%; 
+	width: 100%; 
+	border: 0px solid transparent; 
+	border-radius: 50%; 
+	object-fit: cover; 
+	object-position: 50% 50%; 
+	opacity: 0.9; 
+	filter: grayscale(100%);
 }
 
 .quality-vid-stripe {
-	width: 30px; height: 1px; background-color: #bea67c; margin: 25px auto 15px auto;
+	width: 30px; 
+	height: 1px; 
+	background-color: #bea67c; 
+	margin: 25px auto 15px auto;
 }
 
 
+.full-vid-box {
+	width: 100%; 
+	height: 100%; 
+	background: url(img/bg3.png) no-repeat fixed center; 
+}
+
+.full-vid-frame {
+	width: 80%; 
+	height: 80%; 
+	border: 1px solid #bea67c; 
+	top: 10%; margin: auto;
+}
+
+.full-vid-hstripe {
+	width: 20%; 
+	height: 60%; 
+	margin: auto;
+}
+
+.full-vid-hstripe-1 {
+	width: 50%; 
+	height: 1px; 
+	left: 50%; 
+	background-color: #fff; 
+	margin: 65px 0 0 auto;
+}
+
+.full-vid-hstripe-2 {
+	width: 15%; 
+	height: 5px; 
+	left: 80%; 
+	background-color: #bea67c; 
+	margin: 135px 0 0 auto
+}
+
+.full-vid-text {
+	width: 35%; 
+	height: 60%; 
+	margin: auto 25px; 
+	text-align: left;
+}
+
+.full-vid-text h2 {
+	font-size: 48px; 
+	color: #bea67c;
+}
+
+.full-vid-text p {
+	color: #fff; 
+	width: 80%;
+}
+
+.full-vid-button {
+	position: relative; 
+	border: 2px solid #fff; 
+	width: 60%; 
+	height: 12.5%;
+}
+
+.full-vid-button img {
+	width: 25px; 
+	height: 25px; 
+	object-fit:cover; 
+	object-position: 50% 50%;
+}
+
+.full-vid-button p {
+	margin: 0 0 0 10px; 
+	color: white; 
+	letter-spacing: 3px;
+}
+
+.full-vid-vstripe {
+	width: 35%; 
+	height: 100%;
+}
 
 .about-box {
-	width: 100%; height: 400px; margin: 125px 0 125px 0;
+	width: 100%; 
+	height: 400px; 
+	margin: 125px 0 125px 0;
+}
+
+.footer {
+	width: 100%; 
+	height: 70px; 
+	background: url(img/bg1.jpg) no-repeat fixed center; 
+	background-size: cover; 
+	margin: 0;
+}
+
+.footer-30 {
+	width: 30%; 
+	height: 100%; 
+	margin: 0;
+}
+
+.footer-logo {
+	font-size: 28px; 
+	font-weight: bold; 
+	color: #ddd; 
+	letter-spacing: 12px; 
+	margin: auto;
 }
